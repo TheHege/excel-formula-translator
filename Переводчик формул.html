@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Перевод формул Excel с английского на русский и обратно. Работает без интернета, сохраняет текст в кавычках.">
+<title>Формулы без возни · EN ⇄ RU</title>
+<style>
+:root{color-scheme:dark;--bg:#101915;--panel:#18241e;--line:#33443a;--ink:#f0f2e9;--muted:#a5b4a9;--green:#b6ef96;--mono:Consolas,'Cascadia Code',monospace}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 'Segoe UI',sans-serif}main{max-width:1176px;margin:auto;padding:38px 32px 30px}.top{display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{font-size:15px;font-weight:650;display:flex;align-items:center;gap:12px}.mark{background:var(--green);color:#162817;width:35px;height:35px;display:grid;place-items:center;font:bold 22px Georgia;border-radius:9px}.offline{color:var(--muted);font-size:13px}.offline:before{content:'●';color:var(--green);margin-right:8px}header{padding:48px 0 26px}.eyebrow{color:var(--green);font-size:12px;letter-spacing:2px;font-weight:650}h1{font-weight:550;font-size:clamp(34px,4vw,49px);line-height:1.15;letter-spacing:-1.7px;margin:14px 0 16px}header p{color:var(--muted);max-width:670px;margin:0}.examples{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 22px}.examples>span{font-size:13px;color:var(--muted);margin-right:4px}button,select{font:inherit}button{cursor:pointer}button:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--green);outline-offset:4px}.chip,.clear{border:1px solid var(--line);border-radius:7px;background:transparent;color:#d4dfd4;font-size:12px;padding:7px 11px}.chip:hover,.clear:hover{border-color:#82a779;background:#243329}.editors{display:grid;grid-template-columns:1fr 1fr;gap:18px}.editor{border:1px solid var(--line);background:var(--panel);border-radius:13px;overflow:hidden;min-width:0}.editor.result{border-color:#59734a}.editor-head{padding:17px 19px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;min-height:68px;gap:12px}.label{display:flex;gap:9px;align-items:center;font-size:14px;font-weight:600}.lang{font:11px var(--mono);border:1px solid var(--line);padding:3px 5px;border-radius:4px;color:var(--muted)}.clear{padding:4px 9px}.status{font-size:11px;color:var(--green);white-space:nowrap}.status.warn{color:#f1c681}textarea{display:block;width:100%;min-height:231px;resize:vertical;border:0;background:transparent;color:var(--ink);padding:23px 20px;font:16px/1.8 var(--mono);outline-offset:-4px!important;tab-size:2}textarea::placeholder{color:#6f8376}.result textarea{color:#ccf3b7;background:#1b291e}.editor-foot{border-top:1px solid var(--line);padding:12px 19px;font-size:12px;color:var(--muted);min-height:44px}.settings{display:flex;gap:22px;flex-wrap:wrap;align-items:center;margin:19px 0 23px;color:var(--muted);font-size:13px}.settings label{display:flex;gap:8px;align-items:center}input[type=checkbox]{accent-color:var(--green);width:15px;height:15px}select{background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:5px 9px;border-radius:5px;font-size:12px}.actions{display:flex;align-items:center;justify-content:space-between;gap:20px}.privacy{font-size:12px;color:var(--muted);max-width:440px}.copy{background:var(--green);color:#152510;font-size:14px;font-weight:700;padding:15px 23px;border:0;border-radius:8px;min-width:220px}.copy:hover{background:#c9fbb0}.copy:disabled{opacity:.4;cursor:default}.shortcut{font:11px var(--mono);opacity:.7;margin-top:6px;text-align:center}.changes{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.changes span{font:11px/1.5 var(--mono);padding:5px 8px;border:1px solid var(--line);border-radius:5px;color:#b1c9af}.warnings{border:1px solid #83633d;background:#332a1c;color:#f3d09a;padding:10px 17px;border-radius:8px;font-size:13px;margin:15px 0}.warnings p{margin:4px 0;overflow-wrap:anywhere}details{border-top:1px solid var(--line);margin-top:30px;padding-top:19px;color:var(--muted);font-size:13px}summary{cursor:pointer;color:#d0dbd0}details ul{padding-left:20px;max-width:850px}details li{margin:8px 0}code{font-family:var(--mono);color:#d8e6d4}a{color:var(--green)}footer{display:flex;justify-content:space-between;gap:15px;color:#7e9283;font-size:11px;margin-top:24px}button{transition:background .15s,border-color .15s}@media(max-width:720px){main{padding:24px 18px}.editors{grid-template-columns:1fr}header{padding:33px 0 23px}h1{letter-spacing:-1px}.actions{align-items:stretch;flex-direction:column}.copy{width:100%}.settings{gap:14px}textarea{min-height:175px}.top{align-items:flex-start}.offline{max-width:95px;text-align:right;font-size:11px}footer{flex-direction:column;gap:4px}}
+.direction-bar{display:flex;align-items:center;gap:18px;margin:0 0 22px;font-size:15px;font-weight:600}.swap{display:grid;place-items:center;width:44px;height:40px;border:1px solid #6f925e;border-radius:9px;background:#243622;color:var(--green);font-size:25px;line-height:1}.swap:hover{background:#354d2c}.settings [for=decimal]{flex-wrap:wrap}
+</style>
+</head>
+<body><main>
+<div class="top"><div class="brand"><span class="mark" aria-hidden="true">ƒ</span> Формулы без возни</div><span class="offline">Работает офлайн</span></div>
+<header><div class="eyebrow" id="eyebrow">EXCEL · EN → RU</div><h1>Вставил. Перевёл. В лабу.</h1><p>Формулы с английского на русский и обратно. Функции и разделители меняются автоматически, текст в кавычках остаётся твоим.</p></header>
+<div class="direction-bar" aria-label="Направление перевода"><span id="sourceLanguage">Английский</span><button class="swap" id="swap" type="button" aria-label="Поменять направление перевода" title="Поменять языки местами и перевести обратно">⇄</button><span id="targetLanguage">Русский</span></div>
+<div class="examples"><span>Попробовать:</span><button class="chip" data-example="count">COUNT</button><button class="chip" data-example="stats">Статистика</button><button class="chip" data-example="quotes">Текст в кавычках</button><button class="chip" data-example="array">Массив</button></div>
+<div class="editors">
+<section class="editor"><div class="editor-head"><label class="label" for="input"><span class="lang" id="inputLang">EN</span> Исходная формула</label><button class="clear" id="clear">Очистить</button></div><textarea id="input" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder='=IF(COUNT(A1:A10)>0,1.5,"no data")'></textarea><div class="editor-foot" id="inputHint">Дробные числа на входе: через точку · Знак = добавится сам</div></section>
+<section class="editor result"><div class="editor-head"><label class="label" for="output"><span class="lang" id="outputLang">RU</span> <span id="outputTitle">Для русского Excel</span></label><span id="status" class="status" role="status"></span></div><textarea id="output" readonly spellcheck="false" placeholder='=ЕСЛИ(СЧЁТ(A1:A10)>0;1,5;"no data")'></textarea><div class="editor-foot" id="outputHint">Разделитель аргументов: точка с запятой ;</div></section>
+</div>
+<div class="settings"><label><input type="checkbox" id="batch">Несколько формул — по одной в строке</label><label for="decimal"><span id="decimalLabel">Дроби в результате</span> <select id="decimal"><option value=",">1,5 — через запятую</option><option value=".">1.5 — через точку</option></select></label></div>
+<div class="warnings" id="warnings" role="status" hidden></div><div class="changes" id="changes" aria-label="Переведённые функции"></div>
+<div class="actions"><div class="privacy">Всё обрабатывается в этом файле на твоём компьютере. Формулы никуда не отправляются и не сохраняются.</div><div><button class="copy" id="copy" disabled>Копировать формулу</button><div class="shortcut">Ctrl + Enter</div></div></div>
+<details><summary>Какие правила учтены</summary><ul>
+<li><span id="functionCount"></span> имён функций в словаре, включая <code>COUNT</code>, <code>IF</code>, <code>STDEV.S</code>, <code>VAR.S</code>, <code>VLOOKUP</code>. Переводятся вызовы функций перед скобкой; имена диапазонов сохраняются.</li>
+<li>Кнопка <code>⇄</code> меняет языки местами и переносит результат в поле ввода. Вне кавычек функции, аргументы <code>, ⇄ ;</code>, десятичные числа <code>1.5 ⇄ 1,5</code>, логические значения <code>TRUE ⇄ ИСТИНА</code> и стандартные ошибки переводятся в выбранном направлении. В обратном переводе принимаются также русские имена с Е вместо Ё.</li>
+<li>В двойных кавычках сохраняется всё, включая запятые, точки, английские слова, шаблоны форматов и экранированные кавычки <code>""</code>. Имена листов в одинарных кавычках и столбцов в квадратных скобках тоже сохраняются.</li>
+<li>В константах массива <code>{1,2;3,4} ⇄ {1\2;3\4}</code> разделители столбцов переводятся в обе стороны, точки с запятой между строками сохраняются. Это стандартные разделители массивов для русских региональных настроек Windows.</li>
+<li>Для английской формулы используется десятичная точка. Десятичный разделитель русской стороны выбирается в настройке «Дроби»: по умолчанию запятая. Направление задаётся кнопкой <code>⇄</code>; автоматического определения языка нет.</li>
+<li>Неизвестные функции остаются как есть с предупреждением. Перевод не добавляет новые функции в старые версии Excel и не проверяет результат вычисления. Внутри текстовых строк, в том числе в <code>INDIRECT</code> и <code>TEXT</code>, перевод не выполняется.</li>
+</ul><p>Основа словаря: <a href="https://learn.microsoft.com/ru-ru/office/dev/add-ins/excel/excel-add-ins-worksheet-functions" target="_blank" rel="noopener noreferrer">справочник Microsoft</a>. Подключение к интернету нужно только для открытия справки.</p></details>
+<footer><span>Маленькая утилита для больших лаб.</span><span>Один файл · Без установки · Без аккаунта</span></footer>
+</main><script>
+const FUNCTIONS = Object.freeze({"ABS":"ABS","ACCRINT":"НАКОПДОХОД","ACCRINTM":"НАКОПДОХОДПОГАШ","ACOS":"ACOS","ACOSH":"ACOSH","ACOT":"ACOT","ACOTH":"ACOTH","AMORDEGRC":"АМОРУМ","AMORLINC":"АМОРУВ","AND":"И","ARABIC":"АРАБСКОЕ","AREAS":"ОБЛАСТИ","ASC":"ASC","ASIN":"ASIN","ASINH":"ASINH","ATAN":"ATAN","ATAN2":"ATAN2","ATANH":"ATANH","AVEDEV":"СРОТКЛ","AVERAGE":"СРЗНАЧ","AVERAGEA":"СРЗНАЧА","AVERAGEIF":"СРЗНАЧЕСЛИ","AVERAGEIFS":"СРЗНАЧЕСЛИМН","BAHTTEXT":"БАТТЕКСТ","BASE":"ОСНОВАНИЕ","BESSELI":"БЕССЕЛЬ.I","BESSELJ":"БЕССЕЛЬ.J","BESSELK":"БЕССЕЛЬ.K","BESSELY":"БЕССЕЛЬ.Y","BETA.DIST":"БЕТА.РАСП","BETA.INV":"БЕТА.ОБР","BIN2DEC":"ДВ.В.ДЕС","BIN2HEX":"ДВ.В.ШЕСТН","BIN2OCT":"ДВ.В.ВОСЬМ","BINOM.DIST":"БИНОМ.РАСП","BINOM.DIST.RANGE":"БИНОМ.РАСП.ДИАП","BINOM.INV":"БИНОМ.ОБР","BITAND":"БИТ.И","BITLSHIFT":"БИТ.СДВИГЛ","BITOR":"БИТ.ИЛИ","BITRSHIFT":"БИТ.СДВИГП","BITXOR":"БИТ.ИСКЛИЛИ","CEILING.PRECISE":"ОКРВВЕРХ.ТОЧН","CHAR":"СИМВОЛ","CHISQ.DIST":"ХИ2.РАСП","CHISQ.DIST.RT":"ХИ2.РАСП.ПХ","CHISQ.INV":"ХИ2.ОБР","CHISQ.INV.RT":"ХИ2.ОБР.ПХ","CHOOSE":"ВЫБОР","CLEAN":"ПЕЧСИМВ","CODE":"КОДСИМВ","COLUMNS":"ЧИСЛСТОЛБ","COMBIN":"ЧИСЛКОМБ","COMBINA":"ЧИСЛКОМБА","COMPLEX":"КОМПЛЕКСН","CONCATENATE":"СЦЕПИТЬ","CONFIDENCE.NORM":"ДОВЕРИТ.НОРМ","CONFIDENCE.T":"ДОВЕРИТ.СТЬЮДЕНТ","CONVERT":"ПРЕОБР","COS":"COS","COSH":"COSH","COT":"COT","COTH":"COTH","COUNT":"СЧЁТ","COUNTA":"СЧЁТЗ","COUNTBLANK":"СЧИТАТЬПУСТОТЫ","COUNTIF":"СЧЁТЕСЛИ","COUNTIFS":"СЧЁТЕСЛИМН","COUPDAYBS":"ДНЕЙКУПОНДО","COUPDAYS":"ДНЕЙКУПОН","COUPDAYSNC":"ДНЕЙКУПОНПОСЛЕ","COUPNCD":"ДАТАКУПОНПОСЛЕ","COUPNUM":"ЧИСЛКУПОН","COUPPCD":"ДАТАКУПОНДО","CSC":"CSC","CSCH":"CSCH","CUMIPMT":"ОБЩПЛАТ","CUMPRINC":"ОБЩДОХОД","DATE":"ДАТА","DATEVALUE":"ДАТАЗНАЧ","DAVERAGE":"ДСРЗНАЧ","DAY":"ДЕНЬ","DAYS":"ДНИ","DAYS360":"ДНЕЙ360","DB":"ФУО","DBCS":"DBCS","DCOUNT":"БСЧЁТ","DCOUNTA":"БСЧЁТА","DDB":"ДДОБ","DEC2BIN":"ДЕС.В.ДВ","DEC2HEX":"ДЕС.В.ШЕСТН","DEC2OCT":"ДЕС.В.ВОСЬМ","DECIMAL":"ДЕС","DEGREES":"ГРАДУСЫ","DELTA":"ДЕЛЬТА","DEVSQ":"КВАДРОТКЛ","DGET":"БИЗВЛЕЧЬ","DISC":"СКИДКА","DMAX":"ДМАКС","DMIN":"ДМИН","DOLLARDE":"РУБЛЬ.ДЕС","DOLLARFR":"РУБЛЬ.ДРОБЬ","DPRODUCT":"БДПРОИЗВЕД","DSTDEV":"ДСТАНДОТКЛ","DSTDEVP":"ДСТАНДОТКЛП","DSUM":"БДСУММ","DURATION":"ДЛИТ","DVARP":"БДДИСПП","EDATE":"ДАТАМЕС","EFFECT":"ЭФФЕКТ","EOMONTH":"КОНМЕСЯЦА","ERF":"ФОШ","ERF.PRECISE":"ФОШ.ТОЧН","ERFC":"ДФОШ","ERFC.PRECISE":"ДФОШ.ТОЧН","ERROR.TYPE":"ТИП.ОШИБКИ","EVEN":"ЧЁТН","EXACT":"СОВПАД","EXP":"EXP","EXPON.DIST":"ЭКСП.РАСП","F.DIST":"F.РАСП","F.DIST.RT":"F.РАСП.ПХ","F.INV":"F.ОБР","F.INV.RT":"F.ОБР.ПХ","FACT":"ФАКТР","FACTDOUBLE":"ДВФАКТР","FALSE":"ЛОЖЬ","FISHER":"ФИШЕР","FISHERINV":"ФИШЕРОБР","FIXED":"ФИКСИРОВАННЫЙ","FLOOR.MATH":"ОКРВНИЗ.МАТ","FLOOR.PRECISE":"ОКРВНИЗ.ТОЧН","FV":"БС","FVSCHEDULE":"БЗРАСПИС","GAMMA":"ГАММА","GAMMA.DIST":"ГАММА.РАСП","GAMMA.INV":"ГАММА.ОБР","GAMMALN":"ГАММАНЛОГ","GAMMALN.PRECISE":"ГАММАНЛОГ.ТОЧН","GAUSS":"ГАУСС","GCD":"НОД","GEOMEAN":"СРГЕОМ","GESTEP":"ПОРОГ","HARMEAN":"СРГАРМ","HEX2BIN":"ШЕСТН.В.ДВ","HEX2DEC":"ШЕСТН.В.ДЕС","HEX2OCT":"ШЕСТН.В.ВОСЬМ","HLOOKUP":"ГПР","HOUR":"ЧАС","HYPERLINK":"ГИПЕРССЫЛКА","HYPGEOM.DIST":"ГИПЕРГЕОМ.РАСП","IF":"ЕСЛИ","IMABS":"МНИМ.ABS","IMAGINARY":"МНИМ.ЧАСТЬ","IMARGUMENT":"МНИМ.АРГУМЕНТ","IMCONJUGATE":"МНИМ.СОПРЯЖ","IMCOS":"МНИМ.COS","IMCOSH":"МНИМ.COSH","IMCOT":"МНИМ.COT","IMCSC":"МНИМ.CSC","IMCSCH":"МНИМ.CSCH","IMDIV":"МНИМ.ДЕЛ","IMEXP":"МНИМ.EXP","IMLN":"МНИМ.LN","IMLOG10":"МНИМ.LOG10","IMLOG2":"МНИМ.LOG2","IMPOWER":"МНИМ.СТЕПЕНЬ","IMPRODUCT":"МНИМ.ПРОИЗВЕД","IMREAL":"МНИМ.ВЕЩ","IMSEC":"МНИМ.SEC","IMSECH":"МНИМ.SECH","IMSIN":"МНИМ.SIN","IMSINH":"МНИМ.SINH","IMSQRT":"МНИМ.КОРЕНЬ","IMSUB":"МНИМ.РАЗН","IMSUM":"МНИМ.СУММ","IMTAN":"МНИМ.TAN","INT":"ЦЕЛОЕ","INTRATE":"ИНОРМА","IPMT":"ПРПЛТ","IRR":"ВСД","ISTEXT":"ЕТЕКСТ","ISEVEN":"ЕЧЁТН","ISFORMULA":"ЕФОРМУЛА","ISO.CEILING":"ISO.ОКРВВЕРХ","ISOWEEKNUM":"НОМНЕДЕЛИ.ISO","ISPMT":"ПРОЦПЛАТ","KURT":"ЭКСЦЕСС","LARGE":"НАИБОЛЬШИЙ","LCM":"НОК","LN":"LN","LOG":"LOG","LOG10":"LOG10","LOGNORM.DIST":"ЛОГНОРМ.РАСП","LOGNORM.INV":"ЛОГНОРМ.ОБР","LOOKUP":"ПРОСМОТР","LOWER":"СТРОЧН","MATCH":"ПОИСКПОЗ","MAX":"МАКС","MAXA":"МАКСА","MDURATION":"МДЛИТ","MEDIAN":"МЕДИАНА","MIN":"МИН","MINA":"МИНА","MINUTE":"МИНУТЫ","MIRR":"МВСД","MOD":"ОСТАТ","MONTH":"МЕСЯЦ","MROUND":"ОКРУГЛТ","MULTINOMIAL":"МУЛЬТИНОМ","N":"Ч","NA":"НД","NEGBINOM.DIST":"ОТРБИНОМ.РАСП","NETWORKDAYS":"ЧИСТРАБДНИ","NETWORKDAYS.INTL":"ЧИСТРАБДНИ.МЕЖД","NOMINAL":"НОМИНАЛ","NORM.DIST":"НОРМ.РАСП","NORM.INV":"НОРМ.ОБР","NORM.S.DIST":"НОРМ.СТ.РАСП","NORM.S.INV":"НОРМ.СТ.ОБР","NOT":"НЕ","NOW":"ТДАТА","NPER":"КПЕР","NPV":"ЧПС","NUMBERVALUE":"ЧЗНАЧ","OCT2BIN":"ВОСЬМ.В.ДВ","OCT2DEC":"ВОСЬМ.В.ДЕС","OCT2HEX":"ВОСЬМ.В.ШЕСТН","ODD":"НЕЧЁТ","ODDFPRICE":"ЦЕНАПЕРВНЕРЕГ","ODDFYIELD":"ДОХОДПЕРВНЕРЕГ","ODDLPRICE":"ЦЕНАПОСЛНЕРЕГ","ODDLYIELD":"ДОХОДПОСЛНЕРЕГ","OR":"ИЛИ","PDURATION":"ПДЛИТ","PERCENTILE.EXC":"ПРОЦЕНТИЛЬ.ИСКЛ","PERCENTILE.INC":"ПРОЦЕНТИЛЬ.ВКЛ","PERCENTRANK.EXC":"ПРОЦЕНТРАНГ.ИСКЛ","PERCENTRANK.INC":"ПРОЦЕНТРАНГ.ВКЛ","PERMUT":"ПЕРЕСТ","PERMUTATIONA":"ПЕРЕСТА","PHI":"ФИ","PI":"ПИ","PMT":"ПЛТ","POISSON.DIST":"ПУАССОН.РАСП","POWER":"СТЕПЕНЬ","PPMT":"ОСПЛТ","PRICE":"ЦЕНА","PRICEDISC":"ЦЕНАСКИДКА","PRICEMAT":"ЦЕНАПОГАШ","PRODUCT":"ПРОИЗВЕД","PROPER":"ПРОПНАЧ","PV":"ПС","QUARTILE.EXC":"КВАРТИЛЬ.ИСКЛ","QUARTILE.INC":"КВАРТИЛЬ.ВКЛ","QUOTIENT":"ЧАСТНОЕ","RADIANS":"РАДИАНЫ","RAND":"СЛЧИС","RANDBETWEEN":"СЛУЧМЕЖДУ","RANK.AVG":"РАНГ.СР","RANK.EQ":"РАНГ.РВ","RATE":"СТАВКА","RECEIVED":"ПОЛУЧЕНО","REPT":"ПОВТОР","ROMAN":"РИМСКОЕ","ROUND":"ОКРУГЛ","ROUNDDOWN":"ОКРУГЛВНИЗ","ROUNDUP":"ОКРУГЛВВЕРХ","ROWS":"ЧСТРОК","RRI":"ЭКВ.СТАВКА","SEC":"SEC","SECH":"SECH","SECOND":"СЕКУНДЫ","SERIESSUM":"РЯД.СУММ","SHEET":"ЛИСТ","SHEETS":"ЛИСТЫ","SIGN":"ЗНАК","SIN":"SIN","SINH":"SINH","SKEW":"СКОС","SKEW.P":"СКОС.Г","SLN":"АПЛ","SMALL":"НАИМЕНЬШИЙ","SQRT":"КОРЕНЬ","SQRTPI":"КОРЕНЬПИ","STANDARDIZE":"НОРМАЛИЗАЦИЯ","STDEV.P":"СТАНДОТКЛОН.Г","STDEV.S":"СТАНДОТКЛОН.В","STDEVA":"СТАНДОТКЛОНА","STDEVPA":"СТАНДОТКЛОНПА","SUBSTITUTE":"ПОДСТАВИТЬ","SUBTOTAL":"ПРОМЕЖУТОЧНЫЕ.ИТОГИ","SUM":"СУММ","SUMIF":"СУММЕСЛИ","SUMIFS":"СУММЕСЛИМН","SUMSQ":"СУММКВ","SYD":"АСЧ","T":"Т","T.DIST":"СТЬЮДЕНТ.РАСП","T.DIST.2T":"СТЬЮДЕНТ.РАСП.2Х","T.DIST.RT":"СТЬЮДЕНТ.РАСП.ПХ","T.INV":"СТЬЮДЕНТ.ОБР","T.INV.2T":"СТЬЮДЕНТ.ОБР.2Х","TAN":"TAN","TANH":"TANH","TBILLEQ":"РАВНОКЧЕК","TBILLPRICE":"ЦЕНАКЧЕК","TBILLYIELD":"ДОХОДКЧЕК","TEXT":"ТЕКСТ","TIME":"ВРЕМЯ","TIMEVALUE":"ВРЕМЗНАЧ","TODAY":"СЕГОДНЯ","TRIM":"СЖПРОБЕЛЫ","TRIMMEAN":"УРЕЗСРЕДНЕЕ","TRUE":"ИСТИНА","TRUNC":"ОТБР","TYPE":"ТИП","UNICHAR":"ЮНИСИМВ","UNICODE":"UNICODE","UPPER":"ПРОПИСН","VALUE":"ЗНАЧЕН","VAR.P":"ДИСП.Г","VAR.S":"ДИСП.В","VARA":"ДИСПА","VARPA":"ДИСПРА","VDB":"ПУО","VLOOKUP":"ВПР","WEEKDAY":"ДЕНЬНЕД","WEEKNUM":"НОМНЕДЕЛИ","WEIBULL.DIST":"ВЕЙБУЛЛ.РАСП","WORKDAY":"РАБДЕНЬ","WORKDAY.INTL":"РАБДЕНЬ.МЕЖД","XIRR":"ЧИСТВНДОХ","XNPV":"ЧИСТНЗ","XOR":"ИСКЛИЛИ","YEAR":"ГОД","YEARFRAC":"ДОЛЯГОДА","YIELD":"ДОХОД","YIELDDISC":"ДОХОДСКИДКА","YIELDMAT":"ДОХОДПОГАШ","Z.TEST":"Z.ТЕСТ","CEILING.MATH":"ОКРВВЕРХ.МАТ","CEILING":"ОКРВВЕРХ","FLOOR":"ОКРВНИЗ","DOLLAR":"РУБЛЬ","FIND":"НАЙТИ","FINDB":"НАЙТИБ","LEFT":"ЛЕВСИМВ","LEFTB":"ЛЕВБ","LEN":"ДЛСТР","LENB":"ДЛИНБ","MID":"ПСТР","MIDB":"ПСТРБ","REPLACE":"ЗАМЕНИТЬ","REPLACEB":"ЗАМЕНИТЬБ","RIGHT":"ПРАВСИМВ","RIGHTB":"ПРАВБ","SEARCH":"ПОИСК","SEARCHB":"ПОИСКБ","DVAR":"БДДИСП","IFERROR":"ЕСЛИОШИБКА","IFNA":"ЕСНД","IFS":"ЕСЛИМН","SWITCH":"ПЕРЕКЛЮЧ","INDEX":"ИНДЕКС","INDIRECT":"ДВССЫЛ","OFFSET":"СМЕЩ","ROW":"СТРОКА","COLUMN":"СТОЛБЕЦ","ADDRESS":"АДРЕС","TRANSPOSE":"ТРАНСП","FORMULATEXT":"Ф.ТЕКСТ","GETPIVOTDATA":"ПОЛУЧИТЬ.ДАННЫЕ.СВОДНОЙ.ТАБЛИЦЫ","ISBLANK":"ЕПУСТО","ISERROR":"ЕОШИБКА","ISERR":"ЕОШ","ISNA":"ЕНД","ISNUMBER":"ЕЧИСЛО","ISLOGICAL":"ЕЛОГИЧ","ISREF":"ЕССЫЛКА","ISNONTEXT":"ЕНЕТЕКСТ","ISODD":"ЕНЕЧЁТ","STDEV":"СТАНДОТКЛОН","STDEVP":"СТАНДОТКЛОНП","VAR":"ДИСП","VARP":"ДИСПР","CORREL":"КОРРЕЛ","COVAR":"КОВАР","COVARIANCE.P":"КОВАРИАЦИЯ.Г","COVARIANCE.S":"КОВАРИАЦИЯ.В","MODE":"МОДА","MODE.SNGL":"МОДА.ОДН","MODE.MULT":"МОДА.НСК","PERCENTILE":"ПЕРСЕНТИЛЬ","PERCENTRANK":"ПРОЦЕНТРАНГ","QUARTILE":"КВАРТИЛЬ","RANK":"РАНГ","FREQUENCY":"ЧАСТОТА","LINEST":"ЛИНЕЙН","LOGEST":"ЛГРФПРИБЛ","TREND":"ТЕНДЕНЦИЯ","GROWTH":"РОСТ","FORECAST":"ПРЕДСКАЗ","FORECAST.LINEAR":"ПРЕДСКАЗ.ЛИНЕЙН","SLOPE":"НАКЛОН","INTERCEPT":"ОТРЕЗОК","RSQ":"КВПИРСОН","PEARSON":"ПИРСОН","STEYX":"СТОШYX","SUMPRODUCT":"СУММПРОИЗВ","SUMX2MY2":"СУММРАЗНКВ","SUMX2PY2":"СУММСУММКВ","SUMXMY2":"СУММКВРАЗН","AGGREGATE":"АГРЕГАТ","MDETERM":"МОПРЕД","MINVERSE":"МОБР","MMULT":"МУМНОЖ","MUNIT":"МЕДИН","CONCAT":"СЦЕП","TEXTJOIN":"ОБЪЕДИНИТЬ","MAXIFS":"МАКСЕСЛИМН","MINIFS":"МИНЕСЛИМН","XLOOKUP":"ПРОСМОТРX","XMATCH":"ПОИСКПОЗX","FILTER":"ФИЛЬТР","SORT":"СОРТ","SORTBY":"СОРТПО","UNIQUE":"УНИК","SEQUENCE":"ПОСЛЕД","RANDARRAY":"СЛУЧМАССИВ","LET":"LET","LAMBDA":"LAMBDA","TEXTSPLIT":"ТЕКСТРАЗД","TEXTBEFORE":"ТЕКСТДО","TEXTAFTER":"ТЕКСТПОСЛЕ","NORMDIST":"НОРМРАСП","NORMINV":"НОРМОБР","NORMSDIST":"НОРМСТРАСП","NORMSINV":"НОРМСТОБР","TDIST":"СТЬЮДРАСП","TINV":"СТЬЮДРАСПОБР","TTEST":"ТТЕСТ","T.TEST":"СТЬЮДЕНТ.ТЕСТ","FTEST":"ФТЕСТ","F.TEST":"F.ТЕСТ","CHITEST":"ХИ2ТЕСТ","CHISQ.TEST":"ХИ2.ТЕСТ","CONFIDENCE":"ДОВЕРИТ","POISSON":"ПУАССОН","WEIBULL":"ВЕЙБУЛЛ","ZTEST":"ZТЕСТ","DATEDIF":"РАЗНДАТ","CELL":"ЯЧЕЙКА","INFO":"ИНФОРМ","HYPGEOMDIST":"ГИПЕРГЕОМЕТ","BINOMDIST":"БИНОМРАСП","EXPONDIST":"ЭКСПРАСП","GAMMADIST":"ГАММАРАСП","GAMMAINV":"ГАММАОБР"});
+/* A small lexer: quoted literals and reference labels are opaque tokens. */
+const normalizeFunction = name => name.toUpperCase().replaceAll('Ё', 'Е');
+const REVERSE_FUNCTIONS = Object.freeze(Object.fromEntries(
+  Object.entries(FUNCTIONS).map(([en, ru]) => [normalizeFunction(ru), en])
+));
+const TARGET_FUNCTIONS = new Set(Object.values(FUNCTIONS).map(normalizeFunction));
+const ERRORS = Object.freeze({'#DIV/0!':'#ДЕЛ/0!', '#VALUE!':'#ЗНАЧ!', '#REF!':'#ССЫЛКА!', '#NAME?':'#ИМЯ?', '#NUM!':'#ЧИСЛО!', '#N/A':'#Н/Д', '#NULL!':'#ПУСТО!', '#SPILL!':'#ПЕРЕНОС!', '#CALC!':'#ВЫЧИСЛ!'});
+const REVERSE_ERRORS = Object.freeze(Object.fromEntries(Object.entries(ERRORS).map(([en, ru]) => [ru, en])));
+function translateFormula(input, options = {}) {
+  const reverse = options.direction === 'ru-en';
+  const russianDecimal = options.decimal || ',';
+  const inputDecimal = reverse ? russianDecimal : '.';
+  const outputDecimal = reverse ? '.' : russianDecimal;
+  const dictionary = reverse ? REVERSE_FUNCTIONS : FUNCTIONS;
+  const warnings = new Set(), unknown = new Set(), changed = new Map();
+  const stack = [];
+  let text = input.trim(), out = '', i = 0, arrays = 0;
+  if (!text) return { text: '', warnings: [], changed: [] };
+  if (!text.startsWith('=')) text = '=' + text;
+  if (text.length > 200000) return { text: '', warnings: ['Слишком длинная формула: максимум 200 000 символов.'], changed: [] };
+  const record = (a, b) => { if (a !== b) changed.set(a, b); return b; };
+  while (i < text.length) {
+    const c = text[i];
+    if (c === '"' || c === "'") {
+      const start = i++, quote = c;
+      let closed = false;
+      while (i < text.length) {
+        if (text[i++] === quote) {
+          if (text[i] === quote) { i++; continue; }
+          closed = true; break;
+        }
+      }
+      if (!closed) warnings.add(quote === '"' ? 'Не закрыты двойные кавычки.' : 'Не закрыты кавычки в имени листа.');
+      out += text.slice(start, i); continue;
+    }
+    if (c === '[') {
+      const start = i++; let depth = 1;
+      while (i < text.length && depth) {
+        // Apostrophes escape special characters in structured references.
+        if (text[i] === "'" && /[\[\]#'@]/.test(text[i + 1] || '')) { i += 2; continue; }
+        if (text[i] === '[') depth++;
+        if (text[i] === ']') depth--;
+        i++;
+      }
+      if (depth) warnings.add('Не закрыта квадратная скобка в ссылке.');
+      out += text.slice(start, i); continue;
+    }
+    if (c === '#') {
+      const errors = reverse ? REVERSE_ERRORS : ERRORS;
+      const error = Object.keys(errors).find(name => text.slice(i, i + name.length).toUpperCase() === name);
+      if (error) {
+        out += record(text.slice(i, i + error.length), errors[error]); i += error.length; continue;
+      }
+    }
+    if (reverse && arrays && c === '\\') { out += ','; i++; continue; }
+    if (/[\p{L}_\\]/u.test(c)) {
+      const tokenPattern = reverse && arrays ? /^[\p{L}\p{N}_.?]+/u : /^[\p{L}\p{N}_.\\?]+/u;
+      const token = text.slice(i).match(tokenPattern)[0];
+      const tail = text.slice(i + token.length);
+      const key = token.replace(/^(?:_xlfn\.|_xlws\.)+/i, '').toUpperCase();
+      const prefix = token.slice(0, token.length - key.length);
+      const lookupKey = reverse ? normalizeFunction(key) : key;
+      if (/^\s*\(/.test(tail)) {
+        if (Object.hasOwn(dictionary, lookupKey)) out += record(token, prefix + dictionary[lookupKey]);
+        else {
+          out += token;
+          const knownTarget = reverse ? Object.hasOwn(FUNCTIONS, key) : TARGET_FUNCTIONS.has(normalizeFunction(key));
+          if (!knownTarget) unknown.add(token);
+        }
+      } else if ((reverse ? lookupKey === 'ИСТИНА' || lookupKey === 'ЛОЖЬ' : key === 'TRUE' || key === 'FALSE') && !/^\s*[!\[:]/.test(tail)) out += record(token, dictionary[lookupKey]);
+      else out += token;
+      i += token.length; continue;
+    }
+    if (/\d/.test(c) || (c === inputDecimal && /\d/.test(text[i + 1] || ''))) {
+      const numberPattern = inputDecimal === ',' ? /^(?:\d+(?:,\d*)?|,\d+)(?:[Ee][+-]?\d+)?/ : /^(?:\d+(?:\.\d*)?|\.\d+)(?:[Ee][+-]?\d+)?/;
+      const n = text.slice(i).match(numberPattern)[0];
+      out += n.replace(inputDecimal, outputDecimal); i += n.length; continue;
+    }
+    if (c === '{' || c === '(') { stack.push(c); if (c === '{') arrays++; }
+    if (c === '}' || c === ')') {
+      const expected = c === '}' ? '{' : '(';
+      if (stack.at(-1) === expected) stack.pop();
+      else warnings.add('Проверь скобки: есть лишняя или перепутанная закрывающая скобка.');
+      if (c === '}') arrays = Math.max(0, arrays - 1);
+    }
+    if (reverse && c === ';') out += arrays ? ';' : ',';
+    else if (!reverse && c === ',') out += arrays ? '\\' : ';';
+    else out += c;
+    i++;
+  }
+  if (stack.length) warnings.add('Проверь скобки: не все открывающие скобки закрыты.');
+  if (unknown.size) warnings.add('Нет в словаре, оставлено как есть: ' + [...unknown].join(', ') + '.');
+  return { text: out, warnings: [...warnings], changed: [...changed] };
+}
+
+const $ = id => document.getElementById(id);
+const examples = {
+  count: '=COUNT(A1:A20)',
+  stats: '=ROUND(STDEV.S(B2:B31)/SQRT(COUNT(B2:B31)),2)',
+  quotes: '=IF(COUNTIF(A1:A10,"yes, no; maybe")>0,1.5,"COUNT stays here")',
+  array: '=SUM({1.5,2;3,4})'
+};
+let copyTimer, direction = 'en-ru';
+function updateDirection() {
+  const reverse = direction === 'ru-en';
+  $('sourceLanguage').textContent = reverse ? 'Русский' : 'Английский';
+  $('targetLanguage').textContent = reverse ? 'Английский' : 'Русский';
+  $('inputLang').textContent = reverse ? 'RU' : 'EN';
+  $('outputLang').textContent = reverse ? 'EN' : 'RU';
+  $('outputTitle').textContent = reverse ? 'Для английского Excel' : 'Для русского Excel';
+  $('eyebrow').textContent = reverse ? 'EXCEL · RU → EN' : 'EXCEL · EN → RU';
+  $('decimalLabel').textContent = reverse ? 'Дроби в исходной формуле' : 'Дроби в результате';
+  $('inputHint').textContent = reverse ? 'Русская формула · Знак = добавится сам' : 'Дробные числа на входе: через точку · Знак = добавится сам';
+  $('outputHint').textContent = reverse ? 'Аргументы: запятая , · Дробные числа: через точку' : 'Разделитель аргументов: точка с запятой ;';
+  const en = '=IF(COUNT(A1:A10)>0,1.5,"no data")';
+  const ru = translateFormula(en, {decimal:$('decimal').value}).text;
+  $('input').placeholder = reverse ? ru : en;
+  $('output').placeholder = reverse ? en : ru;
+}
+function update() {
+  updateDirection();
+  const input = $('input').value;
+  const chunks = $('batch').checked ? input.split(/\r?\n/) : [input];
+  const results = chunks.map(text => translateFormula(text, { decimal: $('decimal').value, direction }));
+  $('output').value = results.map(r => r.text).join('\n');
+  const warnings = [...new Set(results.flatMap(r => r.warnings))];
+  $('warnings').replaceChildren(...warnings.map(text => {
+    const p = document.createElement('p'); p.textContent = text; return p;
+  }));
+  $('warnings').hidden = !warnings.length;
+  $('copy').disabled = !$('output').value;
+  $('copy').textContent = 'Копировать формулу';
+  const changes = new Map(results.flatMap(r => r.changed));
+  $('changes').replaceChildren(...[...changes].map(([a,b]) => {
+    const el = document.createElement('span'); el.textContent = a + ' → ' + b; return el;
+  }));
+  $('status').textContent = !input.trim() ? 'Жду формулу' : warnings.length ? 'Есть замечания' : 'Готово к вставке';
+  $('status').className = warnings.length ? 'status warn' : 'status';
+}
+async function copy() {
+  if (!$('output').value) return;
+  try {
+    if (navigator.clipboard?.writeText) await navigator.clipboard.writeText($('output').value);
+    else throw new Error('fallback');
+  } catch {
+    $('output').focus(); $('output').select();
+    if (!document.execCommand('copy')) {
+      $('copy').textContent = 'Текст выделен — нажми Ctrl+C'; return;
+    }
+  }
+  $('copy').textContent = 'Скопировано ✓';
+  clearTimeout(copyTimer);
+  copyTimer = setTimeout(() => $('copy').textContent = 'Копировать формулу', 1800);
+}
+$('input').addEventListener('input', update);
+$('batch').addEventListener('change', update);
+$('decimal').addEventListener('change', update);
+$('swap').addEventListener('click', () => {
+  // Carry the translated result over, just like the swap button in a translator.
+  const translated = $('output').value;
+  if (translated) $('input').value = translated;
+  direction = direction === 'en-ru' ? 'ru-en' : 'en-ru';
+  update();
+});
+$('copy').addEventListener('click', copy);
+$('clear').addEventListener('click', () => { $('input').value = ''; update(); $('input').focus(); });
+document.querySelectorAll('[data-example]').forEach(button => button.addEventListener('click', () => {
+  const example = examples[button.dataset.example];
+  $('input').value = direction === 'ru-en' ? translateFormula(example, {decimal:$('decimal').value}).text : example;
+  update(); $('input').focus();
+}));
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') { e.preventDefault(); copy(); }
+});
+$('functionCount').textContent = Object.keys(FUNCTIONS).length;
+update();
+
+</script></body></html>

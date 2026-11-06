@@ -1,0 +1,16 @@
+# Downloaded reference pages and local Windows shortcuts
+ms-functions-*.html
+*.lnk
+/preview.cjs
+
+# Local dependencies, editor files, credentials and archives
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

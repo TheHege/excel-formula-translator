@@ -1,0 +1,12 @@
+{
+  "name": "excel-formula-translator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline English–Russian Excel formula translator in a single HTML file.",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.cjs",
+    "test": "node build.cjs && node test.cjs"
+  }
+}
